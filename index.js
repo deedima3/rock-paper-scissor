@@ -8,9 +8,11 @@ function battle(playerChoice, computerChoice){
     else if((computerChoice == "rock" && playerChoice == "scissor") || 
             (computerChoice == "paper" && playerChoice == "rock") || 
             (computerChoice == "scissor" && playerChoice == "paper")){
+                console.log("Computer Win!")
                 return 0
             }
     else{
+        console.log("You Win!")
         return 1
     }
 }
